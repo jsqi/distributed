@@ -9,7 +9,7 @@ public class Server {
     public static void main(String[] args) {
         try {
             IHelloService iHelloService = new IHelloServiceImpl();
-            LocateRegistry.createRegistry(9999);
+            LocateRegistry.createRegistry(1099);
             // 发布服务
             Naming.rebind("rmi://192.168.199.132/Hello",iHelloService);
             System.out.println("服务启动成功");
