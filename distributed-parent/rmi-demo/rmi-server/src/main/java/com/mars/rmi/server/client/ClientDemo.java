@@ -1,7 +1,6 @@
 package com.mars.rmi.server.client;
 
 import com.mars.rmi.server.IHelloService;
-import com.mars.rmi.server.IHelloServiceImpl;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
